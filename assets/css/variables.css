@@ -1,0 +1,45 @@
+/* Default variables
+------------------------------------*/
+:root {
+/*** theme colors ***/
+    --primary-color: #ffbe4e;
+    --primary-color-light: #fbbf58;
+    --secondary-color: #1f295d;
+    --secondary-color-dark: #131c4b;    
+    --default-color: #666666;
+    --dark-color: #333333;
+    --lite-color: #d3d3d3;
+    --bg-lite: #f2f2f2;
+    --bg-dark: #18191a;
+    --theme-white: #ffffff;
+    --theme-black: black;
+
+/*** font family ***/
+  --base-font-family              :'Kanit', sans-serif;
+  /* --secondary-font-family         :'Open Sans', sans-serif;
+  --heading-font-family-primary   :'Open Sans', sans-serif; */
+    
+/*** font sizing ***/    
+--base-font-size          : 14px;
+--font-size-h1-home       : 45px;
+--font-size-h1-home-vmin  : 8vmin;
+--font-size-h1-inner      : 40px;
+--font-size-h1-inner-vmin : 7.2vmin;
+
+--font-size-h2 : 35px;
+--font-size-h3 : 28px;
+--font-size-h4 : 26px;
+--font-size-h5 : 24px;
+--font-size-h6 : 22px;
+
+}
+
+
+/* .block-element__modifier
+.div
+.div__child
+.div__child--dark
+.div__child--primary
+.div__child--secondary
+
+(BEM) */
